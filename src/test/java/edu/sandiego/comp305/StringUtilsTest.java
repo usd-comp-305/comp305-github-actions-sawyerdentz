@@ -9,4 +9,9 @@ class StringUtilsTest {
     void testReverseStringEvenLength() {
         assertEquals("tset", StringUtils.reverseString("test"));
     }
+
+    @Test
+    void testReverseStringOddLength() {
+        assertEquals("123", StringUtils.reverseString("321"));
+    }
 }
