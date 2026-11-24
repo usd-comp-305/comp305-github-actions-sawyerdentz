@@ -6,7 +6,7 @@ public class StringUtils {
         throw new UnsupportedOperationException("This is a utility class and cannot be instantiated");
     }
 
-    public static String reverseString(String string) {
+    public static String reverseString(final String string) {
         int i = 1;
         while (i < 2) {
 
