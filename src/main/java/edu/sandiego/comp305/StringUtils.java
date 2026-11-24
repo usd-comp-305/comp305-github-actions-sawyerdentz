@@ -7,10 +7,6 @@ public class StringUtils {
     }
 
     public static String reverseString(final String string) {
-        int i = 1;
-        while (i < 2) {
-
-        }
         String newString = "";
         for (char ch : string.toCharArray()) {
             newString = ch + newString;
