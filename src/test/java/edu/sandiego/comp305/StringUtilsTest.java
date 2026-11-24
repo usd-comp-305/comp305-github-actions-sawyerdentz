@@ -14,4 +14,9 @@ class StringUtilsTest {
     void testReverseStringOddLength() {
         assertEquals("123", StringUtils.reverseString("321"));
     }
+
+    @Test
+    void testReverseStringEmptyString() {
+        assertEquals("", StringUtils.reverseString(""));
+    }
 }
